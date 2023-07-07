@@ -12,5 +12,4 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      terraform init
       terraform destroy --auto-approve
